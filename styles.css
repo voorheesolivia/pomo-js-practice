@@ -65,5 +65,20 @@ body{
 }
 
 #reset:hover{
-    background-color: hsl(0, 67%, 62%);
+    background-color: hsl(0, 67%, 68%);
+}
+
+#skip{
+    background-color: hsl(300, 100%, 25%);
+}
+
+#skip:hover{
+    background-color: hsl(300, 100%, 15%);
+}
+
+#tomatoCounter {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    color:hsl(8, 45%, 69%);
+    margin-top: 25px;
 }
