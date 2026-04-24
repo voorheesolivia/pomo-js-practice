@@ -82,3 +82,21 @@ body{
     color:hsl(8, 45%, 69%);
     margin-top: 25px;
 }
+
+@media (max-width: 750px){
+   #controls button{
+    font-size: 1rem;
+    min-width: 100px;
+    }
+
+    #my-h1{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 550px){
+    #controls button{
+    font-size: 1rem;
+    min-width: 50px;
+    }
+}
