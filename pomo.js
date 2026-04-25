@@ -47,6 +47,12 @@ function stop(){
 function reset(){
     clearInterval(interval);
     time = 25 * 60;
+    if (shortClick){
+        time = 5 * 60;
+    }
+    if (longClick){
+        time = 10 * 60;
+    }
     isRunning = false; 
     updateDisplay();
 }
