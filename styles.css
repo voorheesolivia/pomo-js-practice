@@ -26,6 +26,7 @@ h1{
 h1:hover{
     background-color: hsl(8, 45%, 79%);
     border-radius: 20px;
+    cursor: pointer;
 }
 
 #container{
@@ -42,7 +43,7 @@ h1:hover{
     font-size: 5rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    color: hsl(8, 45%, 69%);
+    color: hsl(55, 68%, 90%);
     text-shadow: 2px 2px 2px #0A3323;
     margin-bottom: 25px;
 }
@@ -58,7 +59,7 @@ h1:hover{
     border-radius: 20px;
     cursor: pointer;
     color: hsl(55, 68%, 90%);
-    transition: background-color 0.5s ease;
+    transition: background-color 0.2s ease;
 }
 
 #start{
@@ -70,34 +71,34 @@ h1:hover{
 }
 
 #stop{
-    background-color: hsl(0, 67%, 52%);
+    background-color: hsl(0, 48%, 54%);
 }
 
 #stop:hover{
-    background-color: hsl(0, 67%, 42%);
+    background-color: hsl(0, 48%, 44%);
 }
 
 #reset{
-    background-color: hsl(321, 67%, 72%);
+    background-color: hsl(204, 36%, 56%);
 }
 
 #reset:hover{
-    background-color: hsl(0, 67%, 68%);
+    background-color: hsl(204, 36%, 46%);
 }
 
 #skip{
-    background-color: hsl(300, 100%, 25%);
+    background-color: hsl(300, 27%, 49%);
 }
 
 #skip:hover{
-    background-color: hsl(300, 100%, 15%);
+    background-color: hsl(300, 27%, 39%);
 }
 
 #tomatoCounter, #skipCounter{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.5rem;
-    color:hsl(8, 45%, 69%);
-    margin-top: 25px;
+    font-size: 1.25rem;
+    color:hsl(55, 68%, 90%);
+    margin-top: 10px;
 }
 
 @media (max-width: 750px){

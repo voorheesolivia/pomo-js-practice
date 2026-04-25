@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
-    <title>Livi and Brenny's Pomodoro Timer</title>
+    <title>Pomodoro Timer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -11,9 +11,9 @@
 
 
     <div id="breaktimes">
-    <h1 onclick="pomodoro(this)">Pomodoro</h1>
-    <h1 onclick="shortbreak(this)">Short Break</h1>
-    <h1 onclick="longbreak(this)">Long Break</h1>
+    <h1 class="my-h1" onclick="pomodoro(this)">Pomodoro</h1>
+    <h1 class="my-h1" onclick="shortbreak(this)">Short Break</h1>
+    <h1 class="my-h1" onclick="longbreak(this)">Long Break</h1>
     </div>
 
     <div id="container">
@@ -22,7 +22,7 @@
         </div>
         <div id="controls">
             <button id="start" onclick="start()">Start</button>
-            <button id="stop" onclick="stop()">Stop</button>
+            <button id="stop" onclick="stop()">Pause</button>
             <button id="reset" onclick="reset()">Reset</button>
             <button id="skip" onclick="skip()">Skip</button>
         </div>
@@ -33,6 +33,10 @@
             Skipped this session: <span id="skipCounterValue">0</span>
         </div>
 
+    </div>
+
+    <div id="tomato-container">
+        
     </div>
 
 </body>

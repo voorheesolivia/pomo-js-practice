@@ -62,6 +62,7 @@ function skip(){
 function tomatoCounter(){
     tomatoCount++;
     tomatoCounterValue.textContent = tomatoCount;
+    addTomato();
 }
 
 function skipCounter(){
@@ -121,4 +122,11 @@ function buttonColor3(clicked){
     if (pomodoroClick){
         clicked.style.backgroundColor = "hsl(8, 45%, 59%)";
     }
+}
+
+function addTomato(){
+    const tomatoContainer = document.getElementById("tomato-container");
+    const img=document.createElement("img");
+    img.src = "images/tomato.png";
+    tomatoContainer.appendChild(img);
 }
