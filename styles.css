@@ -5,10 +5,27 @@ body{
     background-color: hsl(8, 45%, 69%);
 }
 
-#my-h1{
-    font-size: 4rem; 
+#breaktimes{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+h1{
+    font-size: 2rem; 
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: hsl(55, 68%, 90%);
+    margin: 10px;
+    padding: 10px;
+    transition: background-color 0.2s ease;
+    border-radius: 20px;
+    width: 200px;
+}
+
+h1:hover{
+    background-color: hsl(8, 45%, 79%);
+    border-radius: 20px;
 }
 
 #container{
@@ -76,7 +93,7 @@ body{
     background-color: hsl(300, 100%, 15%);
 }
 
-#tomatoCounter {
+#tomatoCounter, #skipCounter{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5rem;
     color:hsl(8, 45%, 69%);
@@ -89,8 +106,9 @@ body{
     min-width: 100px;
     }
 
-    #my-h1{
-        font-size: 3rem;
+    h1{
+        font-size: 1.5rem;
+        width: 150px;
     }
 }
 
@@ -98,5 +116,13 @@ body{
     #controls button{
     font-size: 1rem;
     min-width: 50px;
+    }
+
+    h1{
+        font-size:1rem;
+    }
+
+    #breaktimes{
+        width: 450px;
     }
 }

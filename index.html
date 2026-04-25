@@ -9,7 +9,12 @@
 
 <body>
 
-    <h1 id="my-h1">Pomodoro Timer</h1>
+
+    <div id="breaktimes">
+    <h1 onclick="pomodoro(this)">Pomodoro</h1>
+    <h1 onclick="shortbreak(this)">Short Break</h1>
+    <h1 onclick="longbreak(this)">Long Break</h1>
+    </div>
 
     <div id="container">
         <div id="display">
@@ -24,11 +29,14 @@
         <div id="tomatoCounter">
             Completed this session: <span id="tomatoCounterValue">0</span>
         </div>
+        <div id="skipCounter">
+            Skipped this session: <span id="skipCounterValue">0</span>
+        </div>
 
     </div>
 
 </body>
 
 
-<script src="app.js"></script>
+<script src="pomo.js"></script>
 </html>
