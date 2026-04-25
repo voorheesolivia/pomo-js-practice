@@ -46,7 +46,9 @@ function stop(){
 
 function reset(){
     clearInterval(interval);
-    time = 25 * 60;
+    if (pomodoroClick){
+        time = 25*60;
+    }
     if (shortClick){
         time = 5 * 60;
     }
