@@ -127,3 +127,14 @@ h1:hover{
         width: 450px;
     }
 }
+
+@media (max-width: 300px){
+    #controls button{
+        font-size: 1rem;
+        max-width: 75px;
+    }
+
+    #breaktimes{
+        width: 200px;
+    }
+}
